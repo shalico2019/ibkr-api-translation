@@ -1,85 +1,90 @@
-# 盈透证券（Interactive Brokers）API 中文翻译
+# 盈透证券 API 中文文档
 
-> 系统化翻译 Interactive Brokers 官方 API 文档，让中文用户无障碍使用 IBKR 量化交易接口。
+![](https://img.shields.io/badge/license-MIT-blue.svg)
+![](https://img.shields.io/badge/status-active-success.svg)
+![](https://img.shields.io/github/last-commit/shalico2019/ibkr-api-translation)
+![](https://img.shields.io/github/deployments/shalico2019/ibkr-api-translation/github-pages?label=docs)
 
-## 项目背景
+> Interactive Brokers TWS API 与 Client Portal API 的中文翻译 + ib_insync 实战量化策略示例
 
-盈透证券（Interactive Brokers, 业内简称 IB / IBKR）提供多套 API 接口，但官方文档全英文，且分散在不同站点。中文社区目前的内容多为零散的博客笔记，缺少系统性的中文文档。
+## ✨ 项目亮点
 
-本项目旨在：
+- 📚 **完整翻译** TWS API 14 章节 + Client Portal API 7 章节
+- 🐍 **实战策略** 均线交叉 / 突破 / 网格，可直接运行
+- 🚀 **自动部署** GitHub Pages + MkDocs Material，每次 push 自动上线
+- 🔍 **可搜索** 内置全文搜索 + 代码高亮 + 深色模式
+- 🌐 **在线访问** [https://shalico2019.github.io/ibkr-api-translation/](https://shalico2019.github.io/ibkr-api-translation/)
 
-- 📚 **系统翻译** IBKR 各套 API 的官方文档
-- 🇨🇳 **统一中文术语**，避免同一概念多种译法
-- 🧭 **整理索引**，让用户能快速找到需要的接口
-- 🛠️ **附带示例**，必要时补充中文化的代码示例
+## 📖 内容覆盖
 
-## 翻译范围
+| 模块 | 状态 | 说明 |
+|---|---|---|
+| TWS API | ✅ 14/14 | 连接、合约、订单、行情、历史数据、错误处理等 |
+| Client Portal API | ✅ 7/7 | REST 风格，OAuth 认证 |
+| 实战策略 | ✅ 3/3 | Python + ib_insync，附源码与说明 |
 
-| API | 文档来源 | 状态 |
-| --- | --- | --- |
-| TWS API | [interactivebrokers.github.io/tws-api](https://interactivebrokers.github.io/tws-api/) | 🚧 进行中 |
-| Client Portal API | [interactivebrokers.com/api](https://www.interactivebrokers.com/api/doc.html) | 📝 待开始 |
-| FIX CTCI | IBKR FIX 接入规范 | 📝 待开始 |
+## 🚀 快速开始（在线阅读）
 
-> 状态图例：🚧 进行中 · 📝 待开始 · ✅ 已完成
+直接访问部署好的站点：
 
-## 目录结构
+[https://shalico2019.github.io/ibkr-api-translation/](https://shalico2019.github.io/ibkr-api-translation/)
+
+无需安装任何依赖，浏览器打开即用。左侧导航栏按 API 分类列出全部章节，顶部搜索框支持全文检索。
+
+## 🛠 本地构建
+
+如果你想在本地阅读或参与翻译校对：
+
+```bash
+git clone https://github.com/shalico2019/ibkr-api-translation
+cd ibkr-api-translation
+pip install -r requirements.txt
+mkdocs serve
+```
+
+打开 [http://localhost:8000](http://localhost:8000) 即可在本地浏览站点，修改 `docs/` 下的文件后页面会自动热更新。
+
+## 📂 仓库结构
 
 ```
 .
-├── README.md
-├── LICENSE
+├── README.md                # 你正在读的这份文件
+├── LICENSE                  # MIT 许可证
+├── mkdocs.yml               # MkDocs Material 配置
+├── requirements.txt         # Python 依赖
 ├── docs/
-│   ├── tws-api/             # TWS API 文档翻译
-│   │   ├── README.md
-│   │   ├── introduction.md
-│   │   ├── connection.md
-│   │   └── ...
-│   └── client-portal-api/   # Client Portal API 文档翻译
-│       └── README.md
-├── glossary.md              # 术语表（统一译法）
-└── CONTRIBUTING.md          # 贡献指南
+│   ├── index.md             # 站点首页
+│   ├── tws-api/             # TWS API 中文翻译（14 章节）
+│   └── client-portal-api/   # Client Portal API 中文翻译（7 章节）
+└── .github/workflows/       # GitHub Actions：push 自动部署到 Pages
 ```
 
-## 翻译规范
+## 🧭 阅读路线建议
 
-1. **专有名词保留英文**：TWS、IBKR、Order、Contract 等 API 核心概念首次出现时附中文译名，后续可只用英文。
-2. **代码与命令不翻译**：代码块、命令、参数名、字段名一律保留英文。
-3. **术语以 `glossary.md` 为准**：翻译前先查表，避免一词多译。
-4. **保留原文链接**：每个翻译章节末尾注明对应的英文原文链接，方便核对。
+1. **零基础入门**：先看 [TWS API 介绍](https://shalico2019.github.io/ibkr-api-translation/tws-api/introduction/)，理解 IBKR 的 API 体系。
+2. **想用 Python 接 IB**：跳到 [连接 TWS](https://shalico2019.github.io/ibkr-api-translation/tws-api/connection/)，配合 `ib_insync` 实战。
+3. **做量化策略**：[实战策略目录](https://shalico2019.github.io/ibkr-api-translation/) 下提供了均线交叉、突破、网格三个可直接运行的示例。
+4. **REST 风格接入**：参考 [Client Portal API](https://shalico2019.github.io/ibkr-api-translation/client-portal-api/) 章节，使用 OAuth 走 HTTP 调用。
 
-## 贡献方式
+## 🤝 贡献
 
-欢迎贡献！具体流程见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+欢迎提 Issue / PR：
 
-简单说：
+- 📝 翻译改进：术语润色、章节校对、补充例子
+- 🐍 新的策略示例：用 `ib_insync` 或其他 IBKR SDK 写的实战策略
+- 🐛 文档错误修正：错别字、链接失效、代码 bug
+- 🌐 多语言版本：英文 / 繁体等其他语言的本地化
 
-1. Fork 本仓库
-2. 从 `main` 切分支
-3. 修改 / 翻译 / 校对
-4. 提 PR
+提交前请先读 [贡献指南](./CONTRIBUTING.md)（如果有），保持术语与现有翻译一致。
 
-## 进度看板
+## 📜 许可证与免责声明
 
-- [ ] TWS API - Introduction
-- [ ] TWS API - Connecting to TWS
-- [ ] TWS API - Contracts
-- [ ] TWS API - Orders
-- [ ] TWS API - Market Data
-- [ ] TWS API - Account & Portfolio
-- [ ] TWS API - Error Handling
-- [ ] Client Portal API 整体翻译
-
-## 版权与免责声明
+本仓库文档采用 [MIT License](./LICENSE) 开源。
 
 - 英文原文版权归 Interactive Brokers 所有，本项目仅做翻译整理。
 - 本翻译为社区作品，不构成任何投资建议。
 - API 接口可能随时调整，使用前请以 IBKR 官方英文文档为准。
 
-## License
+## ⭐ Star 趋势
 
-本项目文档采用 [MIT License](./LICENSE) 开源。
-
----
-
-> 如果你也在做 IBKR 量化，欢迎 Star / Fork / PR 一起完善 🤝
+如果这个项目帮你省下了啃英文文档的时间，欢迎点一个 ⭐ 让更多人看到。
