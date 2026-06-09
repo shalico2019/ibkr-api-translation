@@ -47,6 +47,11 @@ jobs:
       - name: Build site
         run: mkdocs build --clean --strict
 
+      - name: Generate sitemap.xml
+        # 在 mkdocs build 之后、Pages upload 之前生成 sitemap.xml + .gz
+        # 不依赖任何 PyPI 包，纯 bash + find。详见 scripts/build-sitemap.sh
+        run: ./scripts/build-sitemap.sh
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

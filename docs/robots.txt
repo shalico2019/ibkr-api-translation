@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shalico2019.github.io/ibkr-api-translation/sitemap.xml
