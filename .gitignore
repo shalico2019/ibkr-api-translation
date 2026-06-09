@@ -94,3 +94,10 @@ Desktop.ini
 # Translation working files
 *.orig
 *.rej
+
+# MkDocs build output
+/site/
+
+# Python packaging
+*.egg-info/
+/pip-wheel-metadata/
