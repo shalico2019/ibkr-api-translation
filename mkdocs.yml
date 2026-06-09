@@ -115,6 +115,11 @@ nav:
       - 订单: client-portal-api/orders.md
       - 持仓: client-portal-api/portfolio.md
       - 行情: client-portal-api/market_data.md
+  - 实战策略:
+      - strategies/README.md
+      - 均线交叉: strategies/ma-crossover.md
+      - 突破策略: strategies/breakout.md
+      - 网格交易: strategies/grid.md
   - 贡献指南: CONTRIBUTING.md
 
 copyright: Copyright &copy; 2026 shalico2019 · MIT License
