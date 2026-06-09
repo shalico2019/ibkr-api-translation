@@ -108,6 +108,13 @@ nav:
       - Notes & Limitations: tws-api/notes_and_limitations.md
   - Client Portal API:
       - client-portal-api/README.md
+      - 概述: client-portal-api/overview.md
+      - Session: client-portal-api/session.md
+      - 认证: client-portal-api/authentication.md
+      - 账户: client-portal-api/account.md
+      - 订单: client-portal-api/orders.md
+      - 持仓: client-portal-api/portfolio.md
+      - 行情: client-portal-api/market_data.md
   - 贡献指南: CONTRIBUTING.md
 
 copyright: Copyright &copy; 2026 shalico2019 · MIT License
