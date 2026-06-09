@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: deploy
+  id-token: write
 
 concurrency:
   group: pages
