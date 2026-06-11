@@ -115,6 +115,51 @@ nav:
       - 订单: client-portal-api/orders.md
       - 持仓: client-portal-api/portfolio.md
       - 行情: client-portal-api/market_data.md
+  - TWS 使用手册:
+      - tws-manual/README.md
+      - P0 新手必读:
+          - 入门概览: tws-manual/getting-started.md
+          - 首次登录与双因素认证: tws-manual/login.md
+          - 基础配置: tws-manual/configuration.md
+          - 账户窗口: tws-manual/account-window.md
+          - 市场数据: tws-manual/market-data.md
+          - 订单类型: tws-manual/order-types.md
+          - 订单管理: tws-manual/order-management.md
+          - 图表基础: tws-manual/charts.md
+          - 自选列表: tws-manual/watchlist.md
+          - 警报与通知: tws-manual/alerts-and-notifications.md
+      - P1 进阶 UI 与常用功能:
+          - Mosaic 界面: tws-manual/mosaic.md
+          - 预设与自定义布局: tws-manual/layouts.md
+          - 快捷键: tws-manual/hot-keys.md
+          - 滚动行情条: tws-manual/ticker-tape.md
+          - 逐笔成交: tws-manual/time-and-sales.md
+          - 订单预设: tws-manual/order-presets.md
+          - 订单共享模式: tws-manual/order-sharing-modes.md
+          - 下单面板: tws-manual/order-ticket.md
+          - 外汇交易器: tws-manual/fx-trader.md
+          - 风险导航器: tws-manual/risk-navigator.md
+          - 市场扫描器: tws-manual/market-scanners.md
+          - 基本面分析: tws-manual/fundamental-analytics.md
+          - 新闻与研究: tws-manual/news.md
+          - 投资组合分析: tws-manual/portfolio-analyst.md
+          - 颜色联动: tws-manual/color-grouping.md
+  - IBKR Desktop:
+      - ibkrdesktop/README.md
+  - IBKR Mobile:
+      - ibkr-mobile/README.md
+  - Client Portal 使用手册:
+      - client-portal-manual/README.md
+  - Advisor Portal:
+      - advisor-portal/README.md
+  - Broker Portal:
+      - broker-portal/README.md
+  - Org Portal:
+      - org-portal/README.md
+  - IBKR GlobalTrader:
+      - ibkr-globaltrader/README.md
+  - IBKR ForecastTrader:
+      - ibkr-forecasttrader/README.md
   - 实战策略:
       - strategies/README.md
       - 均线交叉: strategies/ma-crossover.md

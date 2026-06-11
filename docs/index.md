@@ -8,8 +8,14 @@
 
 | 模块 | 状态 | 说明 |
 | --- | --- | --- |
-| TWS API | ✅ 14 / 19 章节 | 盈透经典的桌面交易 API，覆盖下单、行情、账户等核心功能 |
-| Client Portal API | ✅ 7 / 7 章节 | 盈透新一代基于 OAuth 的 REST API |
+| TWS API | ✅ 14 / 19 章节 | 盈透经典的桌面交易 API（给程序员用） |
+| Client Portal API | ✅ 7 / 7 章节 | 盈透新一代基于 OAuth 的 REST API（给程序员用） |
+| TWS 使用手册 | ✅ 25 / 25 章节 | 盈透 TWS 桌面平台的完整中文操作指南（给交易员用），P0+P1 已完成 |
+| IBKR Desktop | 📋 待启动 | 盈透新一代桌面平台（占位中） |
+| IBKR Mobile | 📋 待启动 | 盈透手机 App（占位中） |
+| Client Portal 使用手册 | 📋 待启动 | 盈透网页端操作指南（占位中） |
+| Advisor / Broker / Org Portal | 📋 待启动 | 顾问 / 经纪商 / 机构门户（占位中） |
+| IBKR GlobalTrader / ForecastTrader | 📋 待启动 | 移动端轻量 App（占位中） |
 | 实战策略 | ✅ 3 个示例 | 基于 `ib_insync` 的量化示例：均线交叉 / 通道突破 / 网格交易 |
 
 详细进度见各模块的 README 索引页。

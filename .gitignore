@@ -101,3 +101,4 @@ Desktop.ini
 # Python packaging
 *.egg-info/
 /pip-wheel-metadata/
+.mavis/
