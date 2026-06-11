@@ -59,7 +59,7 @@ TWS 警报窗口**默认**打开的就是价格警报配置页。
 **何时用**：突破某价位、跌破支撑、回踩确认等场景。
 
 !!! note "界面位置"
-    Alerts 窗口 → 左侧 **Configure Price Condition** → **Method** 下拉选触发方法（[stop trigger method](define-order-preset-value.htm#Modify_the_Stop_Trigger_Method) 之一：Default、Double Last、Last/Ask/Bid、Trailing Stop 等）；**Operator** 选 `>=` 或 `<=`；**Price** 输入触发价。
+    Alerts 窗口 → 左侧 **Configure Price Condition** → **Method** 下拉选触发方法（[stop trigger method](https://www.ibkrguides.com/traderworkstation/define-order-preset-value.htm) 之一：Default、Double Last、Last/Ask/Bid、Trailing Stop 等）；**Operator** 选 `>=` 或 `<=`；**Price** 输入触发价。
 
 **操作步骤要点**：
 

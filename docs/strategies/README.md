@@ -31,7 +31,7 @@
    ```
    `ib_insync` 是 [erdewit/ib_insync](https://github.com/erdewit/ib_insync)，是 [TWS API](../tws-api/introduction.md) 的 Pythonic 异步封装。
 
-2. 启动 [TWS 或 IB Gateway](../tws-api/tws_settings.md#启用-api-连接)，开启 API 连接（默认端口 7497 模拟 / 7496 实盘）。
+2. 启动 [TWS 或 IB Gateway](../tws-api/tws_settings.md)，开启 API 连接（默认端口 7497 模拟 / 7496 实盘）。
 
 3. **强烈建议先用 Paper Account 跑至少 1 个月**，再用真实账户。
 

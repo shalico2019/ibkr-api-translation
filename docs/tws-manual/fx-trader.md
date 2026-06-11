@@ -9,7 +9,7 @@
 
 - **适用场景**：外汇短线 / 量化做市 / 多货币对同时盯盘。
 - **不适用场景**：股票/期权/期货的主下单流程（用 [Mosaic 订单管理](order-management.md)）。
-- **典型搭配**：FXTrader 报价窗口 + [FXTrader 交易单元](fx-trader.md#交易单元) + [订单预设](order-presets.md) 三件套。
+- **典型搭配**：FXTrader 报价窗口 + [FXTrader 交易单元](fx-trader.md#fxtrader) + [订单预设](order-presets.md) 三件套。
 
 !!! info "名词对照"
     **FXTrader** = 外汇交易器（专有产品名）；**Trading Cell** = 交易单元（FXTrader 内的单个货币对报价+下单小方格）；**Quote Panel** = 报价面板（窗口顶部当前选中货币对的完整买/卖/成交量/订单行）；**Inverted Quote** = 反向报价（用间接标价法显示）。
