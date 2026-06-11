@@ -8,8 +8,9 @@
 
 | 模块 | 状态 | 说明 |
 | --- | --- | --- |
-| TWS API | 🚧 翻译中 | 盈透经典的桌面交易 API，覆盖下单、行情、账户等核心功能 |
-| Client Portal API | 📋 待启动 | 盈透新一代基于 OAuth 的 REST API |
+| TWS API | ✅ 14 / 19 章节 | 盈透经典的桌面交易 API，覆盖下单、行情、账户等核心功能 |
+| Client Portal API | ✅ 7 / 7 章节 | 盈透新一代基于 OAuth 的 REST API |
+| 实战策略 | ✅ 3 个示例 | 基于 `ib_insync` 的量化示例：均线交叉 / 通道突破 / 网格交易 |
 
 详细进度见各模块的 README 索引页。
 
