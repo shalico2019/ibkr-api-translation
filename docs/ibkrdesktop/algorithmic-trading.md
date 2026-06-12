@@ -24,11 +24,13 @@
 6. 根据所选算法的要求调整参数（风险等级、目标成交量占比、时间窗口等）。
 7. 点击 **Submit Buy Order** 或 **Submit Sell Order** 提交委托。
 
-!!! info "图片描述"
-    - 图 1：Watchlist 屏幕中产品右键菜单。
-    - 图 2：Rapid Order Entry 面板，右下角 Advanced 按钮高亮。
-    - 图 3：Advanced 窗口下半部，"IB Algorithmic Trading" 下拉框展开后，列出全部可用算法。
-    - 图 4：选定算法后弹出的参数面板（风险等级、参与率、时间窗等）。
+![The watchlist menu right click options](resources/images/rapid-order-entry_300x455.png "Watchlist Menu - Right Click")
+
+![The rapid order entry ticket advanced button.](resources/images/advanced.png "Rapid Order Entry Ticket Advanced Button")
+
+![The advanced window select algorithmic trading drop-down](resources/images/algos.png "Advanced Window Select Algorithmic Trading")
+
+![Adjusting the algo order type.](resources/images/algos1.png "Adjust Algo Order Type")
 
 ---
 
