@@ -68,7 +68,7 @@ IBKR 当前支持的算法订单类型如下，**均可在 IBKR Desktop 通过 A
 - [Advanced 高级订单属性](advanced.md)——Algo 下拉入口所在的面板
 - [止损 / 止盈 / 括号订单](orders-and-trades.md)——同在 Advanced 面板内的兄弟结构
 - [IBKR Desktop 入门](ibkr-desktop.md)——面板与菜单的整体布局
-- [TWS 算法交易](../../tws-manual/orders-and-trades.md)——更完整的 Algo 参数配置
+- [订单与成交（Orders & Trades）](./orders-and-trades.md)——同目录基础章节,作为 Algo 下单入口的兜底阅读
 
 ---
 
