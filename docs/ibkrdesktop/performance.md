@@ -23,9 +23,9 @@
 3. 向下滚动页面，依次查看 Portfolio News、Portfolio Calendar Events、Portfolio Performance Chart。
 4. （可选）滚动到 Portfolio Calendar Events 区域时，**继续向下滚动可加载更多事件**。
 
-!!! info "图片描述"
-    - 图 1：屏幕左上角 Portfolio 菜单图标（小尺寸，深色背景上的白色图标）。
-    - 图 2：Portfolio 页面右半区，Performance 标签页的横截图：顶部 Portfolio News 流、中部 Portfolio Performance Chart 折线图、底部 Portfolio Calendar Events 列表。
+![Portfolio 菜单图标（The portfolio menu icon）](resources/images/portfolioicon.png "Portfolio Menu Icon")
+
+![Portfolio 页面 Performance 标签页（The portfolio performance menu）](resources/images/performance.png "Portfolio Performance Menu")
 
 ---
 
