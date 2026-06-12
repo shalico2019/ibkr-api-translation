@@ -64,7 +64,7 @@
 
 - [入门概览](getting-started.md)：登录后第一步做什么
 - [账户头像](account-avatar.md)：账户管理入口
-- [自选列表](watchlists.md)：如何管理自选列表（待翻译）
+- [自选列表](watchlists.md)：如何管理自选列表
 
 ## 其他资源
 
