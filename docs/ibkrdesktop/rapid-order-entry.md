@@ -24,10 +24,14 @@
 
 2. **右键** 该合约，从弹出菜单中选择 **Buy** 或 **Sell**。
 
+    ![Watchlist 菜单右键选项（The watchlist menu right click options）](resources/images/rapid-order-entry_300x455.png "Watchlist Menu - Right Click")
+
     !!! note "界面位置"
         Watchlist 列表中任意一行 → 右键 → 弹出菜单常见选项：Buy（买入）、Sell（卖出）、Chart（看图）、Alert（设警报）、Add to Watchlist 等。
 
 3. **Rapid Order Entry 面板会自动从屏幕右侧滑出**，并在面板顶部显示你刚选的合约代码 + 买/卖方向。
+
+    ![Rapid Order Entry 面板（The rapid order entry ticket）](resources/images/rapid-order-entry1.png "Rapid Order Entry Ticket")
 
     !!! note "界面位置"
         Watchlist 屏幕的**最右侧**会滑出一个紧凑的面板——这就是 Rapid Order Entry。已开过其他面板时，它会**叠加在右侧**而不是替换 Watchlist。

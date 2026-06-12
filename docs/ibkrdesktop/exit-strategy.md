@@ -21,10 +21,11 @@
 3. 点击 **Preview（预览）** 按钮，检查将要挂出的三笔订单明细（主单、止损子单、止盈子单）。
 4. 确认无误后，点击 **Transmit（发送）**，订单正式提交到交易所/撮合系统。
 
-!!! info "图片描述"
-    - 图 1：Portfolio 页面中某标的右键菜单，"Exit Strategy" 位于菜单中部。
-    - 图 2：Exit Strategy 编辑窗口，左右两侧分别是止盈（Limit）和止损（Stop）的价格输入框，下方有 Preview / Transmit 按钮。
-    - 图 3：Preview 后的订单预览视图，列出主单、止损子单、止盈子单的状态与价格。
+![Portfolio right-click menu with Exit Strategy option](resources/images/exit-strategy.jpg "Portfolio - Right Click Exit Strategy")
+
+![Exit Strategy window with limit/stop price inputs and Preview button](resources/images/exit-strategy1.jpg "Exit Strategy - Edit Limit/Stop")
+
+![Order preview showing parent, stop-loss and profit-taker child orders](resources/images/exit-strategy2.jpg "Exit Strategy - Order Preview")
 
 ---
 
