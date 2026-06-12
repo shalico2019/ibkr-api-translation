@@ -43,8 +43,8 @@
 
 - [持仓（Portfolio）总览](view-positions.md)——Portfolio 菜单的入口
 - [账户余额（Account Balances）](view-balances.md)——同一菜单下的财务指标
-- [投资组合分析（PortfolioAnalyst）](../../tws-manual/portfolio-analyst.md)——基准对比、PDF 报告等深度功能
-- [TWS 入门概览](../../tws-manual/getting-started.md)——从 TWS 打开 PortfolioAnalyst
+- [投资组合分析（PortfolioAnalyst）](../tws-manual/portfolio-analyst.md)——基准对比、PDF 报告等深度功能
+- [TWS 入门概览](../tws-manual/getting-started.md)——从 TWS 打开 PortfolioAnalyst
 
 ---
 
