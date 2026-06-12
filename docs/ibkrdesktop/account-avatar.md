@@ -10,6 +10,8 @@
 !!! note "界面位置"
     账户头像图标是一个圆形图标，位于 IBKR Desktop 窗口**右上角**、搜索框右侧（与窗口设置、退出按钮在同一排）。
 
+    ![账户头像图标（The account avatar icon）](resources/images/account-avatar.png)
+
 ## 菜单项详解
 
 点击账户头像后，下拉菜单中包含以下项：
@@ -84,6 +86,8 @@
 
 !!! note "界面位置"
     **Log Out** 项位于下拉菜单的最底部，通常以红色或带分隔线的样式呈现，与其它项明显区分。
+
+    ![IBKR Desktop 退出登录按钮（The IBKR Desktop log out button）](resources/images/avatar.png)
 
 !!! warning "退出前注意"
     点击 **Log Out** 前请确认：
