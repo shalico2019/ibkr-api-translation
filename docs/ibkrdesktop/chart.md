@@ -156,7 +156,7 @@ IBKR Desktop 支持**最多 8 个图表**同屏显示，可以是同一标的的
 ## 相关章节链接
 
 - [图表技术指标字典](chart-indicators.md)（指标字段说明）
-- [多图表（Multi-Charts）](multi-charts.md)（若项目内已存在独立子页）
+- [多图表（Multi-Charts）](https://www.ibkrguides.com/ibkrdesktop/multi-charts.htm)（源站链接）
 - [扩展交易时段（Extended Trading Hours）](extended-trading-hours.md)
 - [自选列表（Watchlist）](watchlists.md)
 - [布局设置（Layout Settings）](layout-settings.md)

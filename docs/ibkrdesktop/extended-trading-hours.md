@@ -5,7 +5,7 @@
 **扩展交易时段（Extended Trading Hours, ETH）** 包含 **盘前（Pre-Market）** 与 **盘后（After-Hours）** 两个时段。IBKR Desktop 图表默认仅显示**常规交易时段（Regular Trading Hours, RTH）**数据；启用 ETH 后图表上会渲染**两段延伸区间**并用**独立背景色**区分，便于交易员在美股盘前发布的财报、隔夜海外市场波动、盘后业绩指引等事件发生时观察价格行为。
 
 !!! info "适用范围"
-    ETH 显示功能**仅对日线以下周期**（分钟、小时等）有效。**日线及更长周期**图表请使用图表头部工具栏中的**时钟图标**打开"Outside RTH"开关（详见 [Chart Summary](charts-summary.htm#Outside_RTH)）。
+    ETH 显示功能**仅对日线以下周期**（分钟、小时等）有效。**日线及更长周期**图表请使用图表头部工具栏中的**时钟图标**打开"Outside RTH"开关（详见 [Chart Summary](https://www.ibkrguides.com/ibkrdesktop/charts-summary.htm#Outside_RTH)（源站链接））。
 
 ## 适用场景
 
