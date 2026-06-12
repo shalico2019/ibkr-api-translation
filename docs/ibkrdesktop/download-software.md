@@ -20,6 +20,10 @@
 !!! note "界面位置"
     **Download Latest** 与 **Download Beta** 两个按钮位于下载页的 "Try It Now" 区域，两者上下排列；选定一个后再点击的 **Download** 按钮则在下一页中央。
 
+![Download Latest / Download Beta 按钮位置（The IBKR Desktop download latest or beta page）](resources/images/download-software.jpg)
+
+![点击 Download 进入下载页（The download IBKR desktop page）](resources/images/download-software1.jpg)
+
 ## Latest 与 Beta 的区别
 
 | 版本 | 含义 | 自动更新 | 适用人群 |
