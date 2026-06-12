@@ -71,7 +71,7 @@
 - [查看余额（Balances）](view-balances.md)
 - [订单与成交（Orders & Trades）](orders-and-trades.md)
 - [快速下单（Rapid Order Entry）](rapid-order-entry.md)
-- [关闭特定批次（Close Specific Lots）](close-specific-lots.md)
+- [关闭指定批次（Close Specific Lots）](close-specific-lots.md)
 - [退出策略（Exit Strategy）](exit-strategy.md)
 - [自定义投资组合指标](customize-portfolio-metrics.md)
 - 外部：[IBKR Campus - IBKR Desktop Interface](https://ibkrcampus.com/trading-course/ibkr-desktop/)
