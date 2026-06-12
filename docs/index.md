@@ -72,6 +72,18 @@
 
     [开始阅读 :material-arrow-right:](client-portal-api/README.md)
 
+-   :material-monitor-dashboard:{ .lg .middle } **IBKR Desktop 使用手册**
+
+    ---
+
+    **31** 章已上线 · **8** 大主题 · P0+P1 全档覆盖 :material-check-all:
+
+    [:material-check: P0 入门 8/8] · [:material-check: P1 进阶 23/23]
+
+    盈透新一代桌面客户端，覆盖入门 / 账户 / 搜索 / 自选 / 图表 / 警报 / 下单 / 筛选 / 设置
+
+    [开始阅读 :material-arrow-right:](ibkrdesktop/README.md)
+
 -   :material-atom:{ .lg .middle } **实战策略**
 
     ---
@@ -110,12 +122,20 @@
     3. [实战策略 - 突破策略](strategies/breakout.md)
     4. [实战策略 - 网格交易](strategies/grid.md)
 
+=== "🟠 用 IBKR Desktop 客户端"
+
+    1. [IBKR Desktop 简介](ibkrdesktop/ibkr-desktop.md) — 与 TWS 的定位差异
+    2. [入门概览](ibkrdesktop/getting-started.md) — 首次使用流程
+    3. [下载与安装](ibkrdesktop/download-software.md)
+    4. [自选列表](ibkrdesktop/watchlists.md) — IBKR Desktop 风格
+    5. [图表基础](ibkrdesktop/chart.md) — 图上下单 / 指标叠加
+
 ## 站点状态
 
 | 指标 | 数据 |
 | --- | --- |
-| 已发布页面 | 64 个（25 章 TWS 使用手册 + 14 章 TWS API + 7 章 Client Portal API + 3 个实战策略 + 其他） |
-| 翻译完成度 | TWS API 73.7% · Client Portal API 100% · TWS 使用手册 4.7% · 实战策略 3/3 |
+| 已发布页面 | 95 个（25 章 TWS 使用手册 + 31 章 IBKR Desktop + 14 章 TWS API + 7 章 Client Portal API + 3 个实战策略 + 其他） |
+| 翻译完成度 | TWS API 73.7% · Client Portal API 100% · TWS 使用手册 4.7% · **IBKR Desktop P0+P1 31/31** · 实战策略 3/3 |
 | 未来平台占位 | 8 个（IBKR Desktop / Mobile / Client Portal / Advisor / Broker / Org / GlobalTrader / ForecastTrader） |
 | 部署 | GitHub Pages 自动部署，每次 push 自动上线 |
 | 收录 | sitemap.xml 已提交到 Google Search Console / 百度站长（收录流程见 [SEO 收录指南](seo-submission.md)） |

@@ -156,7 +156,47 @@ nav:
           - 订单: client-portal-api/orders.md
           - 持仓: client-portal-api/portfolio.md
           - 行情: client-portal-api/market_data.md
-      - IBKR Desktop: ibkrdesktop/README.md
+      - IBKR Desktop:
+          - IBKR Desktop 首页: ibkrdesktop/README.md
+          - 入门:
+              - 入门概览: ibkrdesktop/getting-started.md
+              - IBKR Desktop 简介: ibkrdesktop/ibkr-desktop.md
+              - 下载与安装: ibkrdesktop/download-software.md
+          - 账户与组合:
+              - 账户头像菜单: ibkrdesktop/account-avatar.md
+              - 投资组合入口: ibkrdesktop/portfolio-icon.md
+              - 查看持仓: ibkrdesktop/view-positions.md
+              - 查看余额: ibkrdesktop/view-balances.md
+              - 订单与成交: ibkrdesktop/orders-and-trades.md
+              - 业绩分析: ibkrdesktop/performance.md
+              - 自定义组合指标: ibkrdesktop/customize-portfolio-metrics.md
+          - 搜索与合约:
+              - 合约搜索: ibkrdesktop/contract-search.md
+          - 自选与图表:
+              - 自选列表: ibkrdesktop/watchlists.md
+              - 图表基础: ibkrdesktop/chart.md
+              - 图表技术指标: ibkrdesktop/chart-indicators.md
+              - 扩展交易时段: ibkrdesktop/extended-trading-hours.md
+              - 图上下单: ibkrdesktop/transmit-orders-chart.md
+              - 持仓均价叠加: ibkrdesktop/position-with-average-price.md
+          - 警报:
+              - 警报与通知: ibkrdesktop/alerts.md
+          - 下单:
+              - 快速下单: ibkrdesktop/rapid-order-entry.md
+              - QuickTrade 闪电下单: ibkrdesktop/quick-trade.md
+              - 高级订单属性: ibkrdesktop/advanced.md
+              - 算法交易: ibkrdesktop/algorithmic-trading.md
+              - 期权策略生成: ibkrdesktop/strategy-builder.md
+              - 出场策略: ibkrdesktop/exit-strategy.md
+              - 关闭指定批次: ibkrdesktop/close-specific-lots.md
+              - 货币转换: ibkrdesktop/currency-conversion.md
+          - 筛选器:
+              - 筛选器概览: ibkrdesktop/screeners-overview.md
+              - 筛选器: ibkrdesktop/screeners.md
+          - 设置与布局:
+              - 通用设置: ibkrdesktop/settings.md
+              - 布局设置: ibkrdesktop/layout-settings.md
+              - 快捷键: ibkrdesktop/hot-keys.md
       - IBKR Mobile: ibkr-mobile/README.md
       - Advisor Portal: advisor-portal/README.md
       - Broker Portal: broker-portal/README.md
