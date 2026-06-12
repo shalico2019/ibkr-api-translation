@@ -25,10 +25,12 @@
     - **新增按钮**：点击 **+ Add New Button**。
     - **调整顺序**：用按钮左侧的 **三横线（拖拽）图标** 抓取按钮拖到目标位置。
 
-!!! info "图片描述"
-    - 图 1：Order Entry 面板右上角，一个黄色/橙色闪电 ⚡ 图标。
-    - 图 2：点击闪电后展开的 QuickTrade 按钮组，纵向排列 `Buy 100 @MKT`、`Sell 100 @MKT` 等按钮；底部有一个 "Configure" 按钮。
-    - 图 3：Configure 模式下的按钮编辑界面，已存在的按钮可拖拽排序，顶部有 "+ Add New Button" 入口。
+![The Lightning Bolt Icon on the Order Entry Panel](resources/images/quicktrade.jpg "Order Entry - Lightning Bolt Icon")
+
+![QuickTrade Buttons Including Buy 100 @MKT and Configure](resources/images/quicktrade1.jpg "QuickTrade Buttons and Configure")
+
+!!! note "图 3 缺失说明"
+    源站 `quick-trade.htm` **仅嵌入 2 张图**（步骤 3 闪电图标、步骤 5 Configure 入口），步骤 6 的 "+ Add New Button" / 三横线拖拽界面**没有独立配图**，本章节以文字描述为主。
 
 ---
 
