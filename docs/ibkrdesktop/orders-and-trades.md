@@ -22,10 +22,14 @@
     !!! note "界面位置"
         Portfolio 图标固定在主窗口左上角，任何页面都能进入。
 
+        ![Portfolio 菜单图标（The portfolio menu icon）](resources/images/portfolioicon.png "Portfolio Menu Icon")
+
 2. 点击 **Orders** 或 **Trades** 标签页。
 
     !!! note "界面位置"
         Portfolio 面板顶部有 4 个标签页（Positions / Orders / Trades / Balances）。Orders 显示**尚未成交**的活动订单；Trades 显示**已经成交**的历史成交。
+
+        ![Portfolio Orders 或 Trades 标签页（The portfolio orders or trades tab）](resources/images/orders-and-trades.png "Portfolio Orders or Trades Tab")
 
 3. **Orders 标签页显示活动订单（working orders）**，**Trades 标签页显示已执行成交（executed trades）**——两个标签页数据是分开统计的，不要混淆。
 
@@ -38,17 +42,21 @@
     !!! note "界面位置"
         Orders 列表中任意一条订单上右键 → 弹出菜单常见选项：**取消订单（Cancel Order）**、**修改订单（Modify Order）**、**复制为新单（Clone / Duplicate）**、**查看订单详情（View Order）** 等。
 
+        ![右键活动订单的菜单（Right clicking on a working order options）](resources/images/orders-and-trades1.png "Right Click Working Order")
+
 5. 点击 **All Orders（全部订单）下拉菜单** 选择额外的过滤条件——例如"只看今天"、"只看已成交"、"只看已撤销"等。
 
     !!! note "界面位置"
         Orders 标签页顶部有一个 "All Orders" 下拉框。常见过滤项：All（全部）、Today's Orders（今天）、Active（活动）、Filled（已成交）、Cancelled（已撤销）、Triggered（已触发）等。
 
+        ![All Orders 下拉菜单（The all orders drop down menu）](resources/images/orders-and-trades2.png "All Orders Drop Down")
+
 6. 点击 **Filter（漏斗图标）**，按代码（symbol）和/或资产类型（asset type）过滤。
 
     !!! note "界面位置"
-        Orders / Trades 标签页顶部的漏斗形 Filter 图标。
+        Orders / Trades 标签页顶部的漏斗形 Filter 图标 ![Filter 漏斗图标（The filter icon）](resources/images/filter-icon.png "Filter Icon")。
 
-7. 使用 **More（更多菜单）** 设置 **Show Zero Positions（显示零持仓）** 和/或 **Show Cash Rows（显示现金行）**——便于核对当日已平仓头寸对应的成交。
+7. 使用 **More（更多菜单）** ![More 菜单图标（The more menu icon）](resources/images/more-menu-icon.png "More Menu Icon") 设置 **Show Zero Positions（显示零持仓）** 和/或 **Show Cash Rows（显示现金行）**——便于核对当日已平仓头寸对应的成交。
 
 ---
 
