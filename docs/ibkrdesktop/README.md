@@ -9,13 +9,15 @@
 
 <div class="grid cards" markdown>
 
--   :material-progress-clock: { .lg .middle } **本模块翻译进度**
+-   :material-check-all: { .lg .middle } **本模块翻译进度**
 
     ---
 
-    **0** 章已上线 · 待启动
+    **31** 章已上线 · **8** 大主题 · P0+P1 全档覆盖 :material-check-all:
 
-    源站英文文档已就绪，等待社区贡献者启动翻译
+    [:material-check: P0 入门 8/8] · [:material-check: P1 进阶 23/23]
+
+    覆盖：入门 / 账户 / 搜索 / 自选 / 图表 / 警报 / 下单 / 筛选 / 设置
 
 -   :material-link-variant: { .lg .middle } **导航**
 
