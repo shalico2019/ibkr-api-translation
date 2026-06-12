@@ -21,10 +21,11 @@
 5. 面板展开后，向下滚动到面板底部，可附加 **Profit Taker（止盈）**、**Stop Loss（止损）**、**Bracket（括号）** 订单，或者调用 IBKR 提供的算法。
 6. 按订单需要填好各项参数，最后点击 **Submit Buy Order** 提交买单。
 
-!!! info "图片描述"
-    - 图 1：Watchlist 屏幕中产品右键菜单，菜单项包含 Buy / Sell / Chart / News / Alert 等。
-    - 图 2：Rapid Order Entry 面板，底部右下角高亮 Advanced 按钮。
-    - 图 3：展开后的 Advanced 面板，从上到下依次是基础订单参数、止盈/止损/括号挂单区域、IB Algorithmic Trading 下拉框。
+![The watchlist menu right click options](resources/images/rapid-order-entry_300x455.png "Watchlist Menu - Right Click")
+
+![The rapid order entry ticket advanced button.](resources/images/advanced.png "Rapid Order Entry Ticket Advanced Button")
+
+![The rapid order entry advanced window.](resources/images/advanced1.png "Advanced Window")
 
 ---
 

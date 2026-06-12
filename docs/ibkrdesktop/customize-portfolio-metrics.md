@@ -33,8 +33,12 @@
 
 !!! info "图片描述"
     - 图 1：页面顶部 Net Liq 标签，左侧有一个 `▼` 三角图标，点击后向下展开。
+
+        ![Net Liq 标签左侧的 carrot icon（点击展开 Portfolio Metrics 自定义面板）](resources/images/customize-portfolio-metrics.jpg)
     - 图 2：Portfolio 页面右上角铅笔图标，位置在主表格区上方。
-    - 图 3：展开后的自定义面板，左侧 "Available Columns" 列表中每行有 `+` 加号按钮；右侧 "Shown Columns" 列表中每行有 `×` 删除按钮。
+
+        ![Portfolio 页面右上角的 pencil icon（点击打开 Portfolio Metrics 自定义面板）](resources/images/customize-portfolio-metrics1.jpg)
+    - 图 3：展开后的自定义面板，左侧 "Available Columns" 列表中每行有 `+` 加号按钮；右侧 "Shown Columns" 列表中每行有 `×` 删除按钮。（源站未提供此图, 文字描述为主）
 
 ---
 
