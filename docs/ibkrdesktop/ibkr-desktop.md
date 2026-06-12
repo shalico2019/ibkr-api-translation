@@ -9,6 +9,8 @@
 
 IBKR Desktop 的导航逻辑经过重新打磨，学习曲线非常平缓——**买一只单股和搭一个复杂的多腿期权策略，操作一样简单**。
 
+![IBKR Desktop 首页（The IBKR Desktop homepage）](resources/images/ibkr-desktop.png "IBKR Desktop Homepage")
+
 !!! note "覆盖范围"
     通过 IBKR Desktop，你可以在全球 160 多个市场上交易**股票、期权、期货、外汇**等品种。
 
@@ -25,6 +27,8 @@ IBKR Desktop 的导航逻辑经过重新打磨，学习曲线非常平缓——*
 
 !!! note "界面位置"
     **Download for Windows** 按钮位于 IBKR Desktop 下载页的中上部，旁边会标注当前的 Latest 稳定版版本号。
+
+![IBKR Desktop 下载页（The IBKR Desktop download page）](resources/images/ibkr-desktop1.png "IBKR Desktop Download Page")
 
 !!! tip "Mac / Linux 用户"
     截至本文档最后更新，IBKR Desktop 官方仅提供 **Windows** 版本。如果你使用 macOS 或 Linux，可以考虑以下替代：
