@@ -1,9 +1,30 @@
 # IBKR GlobalTrader
 
+> 移动端轻量 App
+
 盈透移动端 GlobalTrader（轻量级多市场交易 App）使用手册。
 
-!!! info "本模块状态"
-    本模块**待启动**。当社区有翻译贡献时，将按本目录结构组织内容。
+## 状态
+
+<div class="grid cards" markdown>
+
+-   :material-progress-clock: { .lg .middle } **本模块翻译进度**
+
+    ---
+
+    **0** 章已上线 · 待启动
+
+    源站英文文档已就绪，等待社区贡献者启动翻译
+
+-   :material-link-variant: { .lg .middle } **导航**
+
+    ---
+
+    [:octicons-arrow-right-24: 返回首页](../index.md) ·
+    [:octicons-arrow-right-24: TWS 平台](../tws-platform.md) ·
+    [:octicons-arrow-right-24: Client Portal 平台](../client-portal-platform.md)
+
+</div>
 
 ## 规划
 

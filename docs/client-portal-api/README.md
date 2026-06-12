@@ -1,5 +1,8 @@
 # Client Portal API 文档翻译
 
+!!! info "所属平台"
+    本模块属于 [**Client Portal 平台**](../client-portal-platform.md)。Client Portal 平台下还有 [Client Portal 使用手册](../client-portal-manual/README.md)（给交易员用，占位中）。
+
 > **英文原文**：[Client Portal API Documentation](https://interactivebrokers.github.io/cpwebapi/)（站点已标记 **deprecated**；新文档见 [IBKR Campus](https://ibkrcampus.com/ibkr-api-page/ibkr-api-home/)）
 > **本节维护**：@shalico2019
 > **翻译版本**：v1

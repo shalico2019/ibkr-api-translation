@@ -13,12 +13,12 @@ theme:
   name: material
   language: zh
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
-    - navigation.top
     - navigation.indexes
+    - navigation.top
     - navigation.footer
+    - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
@@ -101,23 +101,10 @@ plugins:
 
 nav:
   - 首页: index.md
-  - 术语表: glossary.md
-  - TWS API:
-      - tws-api/README.md
-      - Introduction: tws-api/introduction.md
-      - Notes & Limitations: tws-api/notes_and_limitations.md
-  - Client Portal API:
-      - client-portal-api/README.md
-      - 概述: client-portal-api/overview.md
-      - Session: client-portal-api/session.md
-      - 认证: client-portal-api/authentication.md
-      - 账户: client-portal-api/account.md
-      - 订单: client-portal-api/orders.md
-      - 持仓: client-portal-api/portfolio.md
-      - 行情: client-portal-api/market_data.md
-  - TWS 使用手册:
-      - tws-manual/README.md
-      - P0 新手必读:
+  - 交易平台:
+      - TWS 平台:
+          - TWS 平台首页: tws-platform.md
+          - 使用手册: tws-manual/README.md
           - 入门概览: tws-manual/getting-started.md
           - 首次登录与双因素认证: tws-manual/login.md
           - 基础配置: tws-manual/configuration.md
@@ -128,7 +115,6 @@ nav:
           - 图表基础: tws-manual/charts.md
           - 自选列表: tws-manual/watchlist.md
           - 警报与通知: tws-manual/alerts-and-notifications.md
-      - P1 进阶 UI 与常用功能:
           - Mosaic 界面: tws-manual/mosaic.md
           - 预设与自定义布局: tws-manual/layouts.md
           - 快捷键: tws-manual/hot-keys.md
@@ -144,27 +130,47 @@ nav:
           - 新闻与研究: tws-manual/news.md
           - 投资组合分析: tws-manual/portfolio-analyst.md
           - 颜色联动: tws-manual/color-grouping.md
-  - IBKR Desktop:
-      - ibkrdesktop/README.md
-  - IBKR Mobile:
-      - ibkr-mobile/README.md
-  - Client Portal 使用手册:
-      - client-portal-manual/README.md
-  - Advisor Portal:
-      - advisor-portal/README.md
-  - Broker Portal:
-      - broker-portal/README.md
-  - Org Portal:
-      - org-portal/README.md
-  - IBKR GlobalTrader:
-      - ibkr-globaltrader/README.md
-  - IBKR ForecastTrader:
-      - ibkr-forecasttrader/README.md
-  - 实战策略:
+          - API 文档: tws-api/README.md
+          - Introduction: tws-api/introduction.md
+          - Notes & Limitations: tws-api/notes_and_limitations.md
+          - Connecting to TWS: tws-api/connection.md
+          - Financial Instruments: tws-api/contracts.md
+          - Placing Orders: tws-api/orders.md
+          - Available Orders: tws-api/order_types.md
+          - Order Conditioning: tws-api/order_conditions.md
+          - Streaming Market Data: tws-api/market_data.md
+          - Historical Market Data: tws-api/historical_data.md
+          - Account Summary: tws-api/account_portfolio.md
+          - News: tws-api/news.md
+          - Minimum Price Increment: tws-api/minimum_increment.md
+          - Error Handling: tws-api/error_handling.md
+          - TWS Settings: tws-api/tws_settings.md
+      - Client Portal 平台:
+          - Client Portal 平台首页: client-portal-platform.md
+          - 使用手册: client-portal-manual/README.md
+          - REST API 文档: client-portal-api/README.md
+          - 概述: client-portal-api/overview.md
+          - Session: client-portal-api/session.md
+          - 认证: client-portal-api/authentication.md
+          - 账户: client-portal-api/account.md
+          - 订单: client-portal-api/orders.md
+          - 持仓: client-portal-api/portfolio.md
+          - 行情: client-portal-api/market_data.md
+      - IBKR Desktop: ibkrdesktop/README.md
+      - IBKR Mobile: ibkr-mobile/README.md
+      - Advisor Portal: advisor-portal/README.md
+      - Broker Portal: broker-portal/README.md
+      - Org Portal: org-portal/README.md
+      - IBKR GlobalTrader: ibkr-globaltrader/README.md
+      - IBKR ForecastTrader: ibkr-forecasttrader/README.md
+  - 量化与策略:
       - strategies/README.md
       - 均线交叉: strategies/ma-crossover.md
       - 突破策略: strategies/breakout.md
       - 网格交易: strategies/grid.md
-  - 贡献指南: CONTRIBUTING.md
+  - 资源:
+      - 术语表: glossary.md
+      - 贡献指南: CONTRIBUTING.md
+      - SEO 收录指南: seo-submission.md
 
 copyright: Copyright &copy; 2026 shalico2019 · MIT License

@@ -1,5 +1,8 @@
 # TWS API 中文翻译
 
+!!! info "所属平台"
+    本模块属于 [**TWS 平台**](../tws-platform.md)。TWS 平台下还有 [TWS 使用手册](../tws-manual/README.md)（给交易员用）和 Mosaic 专题。
+
 > 来源：[Interactive Brokers TWS API Documentation](https://interactivebrokers.github.io/tws-api/)
 > 进度：🚧 翻译中（已翻译 11 / 19 个核心章节）
 

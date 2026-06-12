@@ -1,5 +1,8 @@
 # TWS 使用手册
 
+!!! info "所属平台"
+    本模块属于 [**TWS 平台**](../tws-platform.md)。TWS 平台下还有 [TWS API](../tws-api/README.md)（给程序员用）。
+
 > Interactive Brokers **Trader Workstation (TWS)** 桌面交易平台的完整中文操作指南
 
 TWS 是盈透证券（Interactive Brokers）面向活跃交易者的旗舰桌面平台，支持股票、期权、期货、外汇、债券、基金等 160+ 市场的统一交易。本模块将 [ibkrguides.com/traderworkstation](https://www.ibkrguides.com/traderworkstation/getting-started.htm) 官方英文手册翻译为简体中文，聚焦**实操**而非概念解释。
