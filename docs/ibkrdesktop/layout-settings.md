@@ -26,9 +26,13 @@
 
 1. **打开 Help 菜单**：点击主界面**左下角**的 **Help（帮助）** 菜单。
 
+    ![Help 菜单位置](resources/images/help.png)
+
     > 界面位置：左下角，齿轮/帮助图标。
 
 2. **选择 Layout Settings**：在 Help 菜单中点 **Layout Settings** 项。
+
+    ![Layout Settings 子菜单](resources/images/help1.png)
 
 3. **选择 Layout/Settings Recovery**：在二级菜单中点 **Layout/Settings Recovery**。
 
@@ -37,9 +41,13 @@
     - **Select custom File**（选择自定义文件）：从本机浏览导入一个外部布局文件
     - **Restore Default Settings**（恢复默认设置）：导入 IBKR Desktop 的**出厂默认布局**
 
+    ![Layout/Settings Recovery 文件选择页](resources/images/layout-settings1.png)
+
 5. **点击 Recover Settings 恢复**：选好日期后点 **Recover Settings** 按钮开始恢复。
 
 6. **确认应用重启**：弹出"应用即将重启"提示框，点 **Yes** 确认。
+
+    ![恢复确认弹窗](resources/images/layout-settings2.png)
 
 7. **完成恢复**：应用自动重启，重启后所有交易页和标的已被替换为所选日期的版本。
 
@@ -50,9 +58,17 @@
 ### 操作步骤
 
 1. 点击主界面**左下角**的 **Help（帮助）** 菜单
+
+    ![Help 菜单位置](resources/images/help.png)
+
 2. 在 Help 菜单中选 **Layout Settings**
+
+    ![Layout Settings 子菜单](resources/images/help1.png)
+
 3. 选择 **Save Settings**（保存设置）
 4. 屏幕底部出现提示气泡："Settings have been saved"（设置已保存），确认成功
+
+    ![Settings Saved 提示气泡](resources/images/layout-settings4_517x116.png)
 
 > 保存位置：应用内部（**非外部文件**）—— 想导出为文件请用下方"另存为"。
 
@@ -63,9 +79,17 @@
 ### 操作步骤
 
 1. 点击主界面**左下角**的 **Help（帮助）** 菜单
+
+    ![Help 菜单位置](resources/images/help.png)
+
 2. 在 Help 菜单中选 **Layout Settings**
+
+    ![Layout Settings 子菜单](resources/images/help1.png)
+
 3. 选择 **Save Settings As...**（设置另存为）
 4. 在弹出的系统文件对话框中选择保存位置、输入文件名，确认保存
+
+    ![Save Settings As 路径选择](resources/images/layout-settings6.png)
 
 > 用途：备份 / 跨设备迁移 / 给同事分享自己的布局。
 
@@ -101,5 +125,5 @@
 
 - 源站 URL：https://www.ibkrguides.com/ibkrdesktop/layout-settings.htm
 - 源站最后更新日期：2026-03-05
-- 截图：源站含 5 张截图（Help 菜单 / Layout Settings 子菜单 / Recovery 文件选择 / 恢复确认弹窗 / Save Settings As 路径选择），均为 IBKR Desktop 官方 UI 截图；本译本以文字描述替代。
+- 截图：源站含 6 张截图（Help 菜单 / Layout Settings 子菜单 / Recovery 文件选择 / 恢复确认弹窗 / Settings Saved 气泡 / Save Settings As 路径选择），均为 IBKR Desktop 官方 UI 截图；本译本已全部嵌入。
 - 翻译说明：源站原文结构清晰，三节（Recovery / Save / Save As）操作步骤完整；本译本结构与源站一一对应。
