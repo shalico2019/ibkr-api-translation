@@ -17,11 +17,17 @@
 
 1. **打开设置面板**：点击右上角 / 主界面顶部的 **Settings（设置）** 图标（齿轮形状），弹出设置窗口。
 
-    > 界面位置：主界面右上角齿轮图标。
+    !!! note "界面位置"
+        主界面右上角 / 顶部导航栏中的齿轮状 **Settings** 图标。点击后弹出设置窗口。
+
+        ![设置菜单入口（The settings menu）](resources/images/settings.png "Settings Menu")
 
 2. **切换到 Hotkeys 标签**：在设置窗口中点击 **Hotkeys** 标签页。这里列出现有所有快捷键定义。
 
-    > 界面位置：Settings 窗口 → 顶部标签栏 → Hotkeys。
+    !!! note "界面位置"
+        Settings 窗口顶部标签栏中的 **Hotkeys** 标签。点击后进入快捷键列表页，可查看现有所有快捷键定义。
+
+        ![Hotkeys 标签页（The hotkeys tab）](resources/images/hotkeys1.png "Hotkeys Tab")
 
 3. **删除或编辑快捷键**：
 
@@ -29,6 +35,11 @@
     - **编辑**：点击该快捷键对应的 **Hot Key** 单元格，直接用键盘按下新组合键即可。
 
 4. **配置下单（Order Entry）快捷键**：点击设置窗口顶部的 **Order Entry** 标签，进入下单相关快捷键配置区。这里专门定义"按某键 = 在当前激活标的下一笔特定类型的订单"。
+
+    !!! note "界面位置"
+        设置窗口顶部标签栏中的 **Order Entry** 标签（与 Hotkeys 标签并列）。点击后进入下单类快捷键配置区，列出当前所有与下单相关的快捷键条目。
+
+        ![Order Entry 标签页（Order Entry tab）](resources/images/hotkeys2.png "Order Entry Tab")
 
 5. **填写快捷键参数**：点击某个现有快捷键进入编辑模式，使用**下拉菜单**调整参数：
 
@@ -39,6 +50,11 @@
     | **Keystroke** | 触发的按键 |
     | **Quantity** | 下单数量 |
     | **其他参数** | 价格类型（限价/市价）、TIF 等订单属性 |
+
+    !!! note "界面位置"
+        点击 Order Entry 标签下某个现有快捷键条目后展开编辑面板，可见 **Action / Hotkey Type / Keystroke / Quantity** 等下拉菜单字段，用于调整该快捷键的具体下单参数。
+
+        ![快捷键参数编辑（Editing hotkey parameters）](resources/images/hotkeys3.png "Edit Hotkey Parameters")
 
 6. **（可选）开启自动提交**：勾选 **Submit Order Instantly**（立即提交订单）选项，触发快捷键时**跳过订单确认弹窗**，直接成交。
 
@@ -83,5 +99,5 @@
 
 - 源站 URL：https://www.ibkrguides.com/ibkrdesktop/hot-keys.htm
 - 源站最后更新日期：2025-10-14
-- 截图：源站含 4 张截图（Settings 菜单入口 / Hotkeys 标签 / Order Entry 配置 / Keystroke 编辑），均为 IBKR Desktop 官方 UI 截图；本译本以文字描述替代。
+- 截图：源站含 4 张截图（Settings 菜单入口 `settings.png` / Hotkeys 标签 `hotkeys1.png` / Order Entry 标签 `hotkeys2.png` / 快捷键参数编辑 `hotkeys3.png`），均为 IBKR Desktop 官方 UI 截图；本译本已全部嵌入对应步骤下方。
 - 信息缺口：源站**未给出"IBKR Desktop 默认快捷键列表"**——上方"常用快捷键参考表"为译者整理的常见配置模板，**非源站官方推荐**；请以 IBKR Desktop UI 中实际显示的快捷键为准。
