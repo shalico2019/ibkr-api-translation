@@ -18,11 +18,19 @@ IBKR Desktop 图表支持把当前账户内的**未平仓合约**（Open Positio
 
 ## 操作步骤：开启持仓叠加
 
-1. 点击 IBKR Desktop 左侧 **Quote 菜单**图标打开图表区。
+1. 点击 IBKR Desktop 左侧 **Quote 菜单**![Quote 菜单图标（The quote menu icon）](resources/images/quote-icon.png "Quote Menu Icon")图标打开图表区。
 2. 打开 Chart Settings 窗口，方式二选一：
-   - 点击右上角 **Configure 齿轮图标**；
-   - 或在图表上**右键**，选择 **Settings（设置）**。
+   - 点击右上角 **Configure 齿轮图标**（效果见下方第一张图）；
+   - 或在图表上**右键**，选择 **Settings（设置）**（效果见下方第二张图）。
+
+    ![Configure 齿轮设置（The configure wheel settings）](resources/images/extended-trading.png "Configure Wheel Settings")
+
+    ![右键 Settings 菜单（The right click settings menu）](resources/images/extended-trading1.png "Right Click Settings")
+
 3. 在 **Chart Settings 窗口**左侧选择 **Trading（交易）** 选项卡。
+
+    ![Chart Settings Positions 复选框（The chart settings positions）](resources/images/open-positions.png "Chart Settings Positions")
+
 4. 勾选 **Positions（持仓）** 复选框。
 5. 点击 **Ok（确定）** 保存设置。
 6. 返回图表，**当前账户的未平仓合约**会以**均价水平线**叠加在主图上，**右侧带持仓信息小方块**。
@@ -34,13 +42,11 @@ IBKR Desktop 图表支持把当前账户内的**未平仓合约**（Open Positio
 
 1. **鼠标悬停**在图表上的**持仓小方块**上，方块会高亮显示。
 2. 点击方块上的 **X（关闭）** 按钮。
+
+    ![图上平仓（Closing a position in charts）](resources/images/open-positions1.png "Close Positions Within Chart")
+
 3. 系统在 Order Entry Panel 中**预填**一笔**反向平仓单**（数量 = 持仓数量，方向 = 反向）。
 4. 根据需要调整订单参数后**提交**即可。
-
-> 截图说明：
-> - 第一张图：Chart Settings 窗口的 Trading 选项卡，"Positions" 复选框位于列表内。
-> - 第二张图：图上持仓小方块，hover 高亮后右上角出现 X 关闭按钮。
-> - 第三张图：典型场景下持仓均价线与当前 K 线的对比。
 
 ## 关键要点
 
