@@ -17,23 +17,38 @@
 
 1. **进入期权链并开启 Strategy Builder**：打开任意标的的 Option Chain（期权链）面板，找到并开启 **Strategy Builder** 开关。开关位置在期权链窗口内部；启用后 Strategy Builder 子窗口会出现在屏幕底部。
 
-    > 界面位置：期权链（Option Chain）窗口 → 顶部工具栏切换"Strategy Builder"。示意图：在期权链下方弹出一条新窗口，标题为"Strategy Builder"。
+    !!! note "界面位置"
+        期权链（Option Chain）窗口 → 顶部工具栏切换"Strategy Builder"。开启后，Strategy Builder 子窗口弹出在屏幕底部。
+
+        ![在期权链中开启 Strategy Builder 后，子窗口出现在屏幕底部（The strategy builder in IBKR Desktop）](resources/images/ntws-v1.4-1.png "Strategy Builder")
 
 2. **选择策略模板**：点击 Strategy Builder 顶部的 **Custom** 下拉菜单，从内置列表里选一个策略（例如 **Calendar Spread 日历价差**、**Vertical Spread 垂直价差**、**Straddle 跨式** 等）。
 
-    > 界面位置：Strategy Builder 窗口 → 顶部策略选择栏 → Custom 下拉。
+    !!! note "界面位置"
+        Strategy Builder 窗口 → 顶部策略选择栏 → Custom 下拉菜单。
+
+        ![点击 Custom 下拉选择策略模板（Select Strategy in IBKR Desktop）](resources/images/ntws-v1.4-2.png "Select Strategy")
 
 3. **从期权链选取合约腿（Leg）**：在期权链中点击所需的行（Strike / 到期日 / Call 或 Put），所选腿会自动出现在 Strategy Builder 中，并按策略规则（买腿/卖腿、行权价关系）联动更新组合报价。
 
-    > 示意图：选腿后，Strategy Builder 窗口同步刷新净 debit/credit、最大盈利、最大亏损等组合指标。
+    !!! note "示意图"
+        选腿后，Strategy Builder 窗口同步刷新净 debit/credit、最大盈利、最大亏损等组合指标。
+
+        ![在期权链中选腿后，Strategy Builder 同步更新组合报价（Select Legs in IBKR Desktop）](resources/images/ntws-v1.4-3.png "Select Legs")
 
 4. **（可选）一键平值（Auto-Place At Money）**：选完策略后，再次打开策略下拉菜单并选 **Auto-Place At Money**。系统会自动把组合放在**接近当前市价的平值（at-the-money）位置**，省去手动选 Strike 的步骤。
 
-    > 适用场景：标的快速移动、需要立刻挂出"平值附近"组合时。
+    !!! note "适用场景"
+        标的快速移动、需要立刻挂出"平值附近"组合时。
+
+        ![再次打开策略下拉选择 Auto-Place At Money，让组合自动放在平值附近（Auto Place at Money Strategy in IBKR Desktop）](resources/images/ntws-v1.4-5.png "Auto Place at Money Strategy")
 
 5. **设置订单参数并提交**：在 Strategy Builder 窗口底部填写订单参数（数量、价格类型、限价/止损价、TIF 等），点击 **Submit Order**（提交订单）按钮发送到交易所。
 
-    > 重要：提交前请确认每个腿的方向（买/卖）、数量、Strike 是否正确；多腿订单一旦成交，**逐腿退出较为复杂**。
+    !!! note "重要"
+        提交前请确认每个腿的方向（买/卖）、数量、Strike 是否正确；多腿订单一旦成交，**逐腿退出较为复杂**。
+
+        ![在 Strategy Builder 底部填写订单参数并点击 Submit Order 提交（Order Parameters Strategy Builder in IBKR Desktop）](resources/images/ntws-v1.4-4.png "Order Parameters Strategy Builder")
 
 ## 关键要点
 
@@ -64,4 +79,4 @@
 
 - 源站 URL：https://www.ibkrguides.com/ibkrdesktop/strategy-builder.htm
 - 源站最后更新日期：2025-12-18
-- 截图：源站含 5 张截图（开启 Strategy Builder / 选择策略 / 选腿 / 自动平值 / 订单参数），均为 IBKR Desktop 官方 UI 截图；本译本以文字描述替代。
+- 截图：源站含 5 张截图（开启 Strategy Builder / 选择策略 / 选腿 / 自动平值 / 订单参数），均为 IBKR Desktop 官方 UI 截图；本译本已全部嵌入（`ntws-v1.4-1.png` / `-2.png` / `-3.png` / `-5.png` / `-4.png`，源站原编号顺序 1/2/3/5/4 保留）。
