@@ -19,16 +19,25 @@ IBKR Desktop 提供 **Close Specific Lots（关闭指定批次）** 工具，让
 
 1. 在投资组合（Portfolio）中**右键单击**要平仓的**持仓行**。
 2. 在弹出菜单中选择 **View Lots（查看批次）**。  
-   > 截图：右键菜单中部出现 "View Lots" 选项。
+
+    ![View Lots option in the right-click menu (右键菜单中部的 View Lots 选项)](resources/images/close-specific-lots.jpg "右键菜单 - View Lots")
+
 3. 在 View Lots 窗口顶部点击 **Close Specific Lots（关闭指定批次）** 按钮进入多选模式。  
-   > 截图：标题栏右侧多出 "Close Specific Lots" 按钮。
+
+    ![Close Specific Lots button on the View Lots window header (View Lots 窗口标题栏右侧的 Close Specific Lots 按钮)](resources/images/close-specific-lots1.jpg "View Lots 窗口 - Close Specific Lots 按钮")
+
 4. 屏幕上会弹出 **条款与条件（Terms and Conditions）**，阅读后点击 **Agree（同意）**。  
-   > 截图：居中模态框显示 "Terms and Conditions"，底部 Agree / Cancel 按钮。
+
+    ![Terms and Conditions modal with Agree and Cancel buttons (居中模态框显示 Terms and Conditions, 底部 Agree/Cancel 按钮)](resources/images/close-specific-lots2.jpg "Terms and Conditions 模态框")
+
 5. 在批次列表中，**勾选（check box）** 左侧复选框选择要平仓的批次（可多选）。
 6. 点击 **Create Order（创建订单）**。  
-   > 截图：选中若干批次后，列表上方出现 Create Order 按钮。
+
+    ![Create Order button after selecting tax lots (选中若干批次后列表上方出现 Create Order 按钮)](resources/images/close-specific-lots3.jpg "选中批次 - Create Order 按钮")
+
 7. 系统把所选批次的合计数量与加权平均成本装入左侧 **Order Entry Panel（订单输入面板）**。  
-   > 截图：订单面板显示已选批次的合计数量与建议价格。
+
+    ![Order Entry Panel populated with selected lots quantity and average cost (订单面板显示已选批次的合计数量与加权平均成本)](resources/images/close-specific-lots4.jpg "Order Entry Panel - 已选批次合计数量与加权成本")
 8. 根据需要修改订单参数（订单类型、价格、限价/止损价等），然后：
    - 点击 **Submit Sell Order（提交卖单）** 直接发送；
    - 或点击 **Preview（预览）** 先查看订单摘要再决定是否提交。
@@ -52,4 +61,3 @@ IBKR Desktop 提供 **Close Specific Lots（关闭指定批次）** 工具，让
 
 - 源站：[ibkrguides.com/ibkrdesktop/close-specific-lots.htm](https://www.ibkrguides.com/ibkrdesktop/close-specific-lots.htm)
 - 源站当前返回 200 OK，本翻译对应 **Last updated on October 14, 2025** 版本。
-- 截图资源（仅供 verifier 核对原文图位）：`close-specific-lots.jpg`（右键菜单）、`close-specific-lots1.jpg`（多选按钮）、`close-specific-lots2.jpg`（条款弹窗）、`close-specific-lots3.jpg`（勾选批次）、`close-specific-lots4.jpg`（订单面板）。
